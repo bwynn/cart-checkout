@@ -1,0 +1,9 @@
+{
+  "name": "cart-checkout",
+  "main": "server.js",
+  "dependencies": {
+    "express": "latest",
+    "body-parser": "latest",
+    "mongoose": "latest"
+  }
+}
