@@ -4,7 +4,7 @@ var Address = require('../models/address');
 var Billing = require('../models/billing');
 
 exports.getCustomer = function(req, res) {
-  Customer.findOne({userid: "customerA"}, function(err, results) {
+  Customer.findOne({userid: "customerA"}, function(err, customer) {
     if (err) {
       res.send(err);
     }
