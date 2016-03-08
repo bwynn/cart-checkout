@@ -1,0 +1,8 @@
+{
+  "name": "Cart Checkout",
+  "version": "0.0.1",
+  "dependencies": {
+    "angular": "latest",
+    "angular-route": "latest"
+  }
+}
